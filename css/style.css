@@ -1,0 +1,253 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.header h1 {
+    font-size: 80px;
+    text-align: left;
+    color: #192b59;
+}
+
+.nav{
+    font-size: 12px;
+    font-weight: 800;
+    color: #6e7ea9;
+    text-transform: uppercase; 
+}
+.nav a {
+    color: #6e7ea9;
+}
+
+.btn-primary{
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 12px 15px;
+    border: 1px solid #1085e4;
+}
+
+.btn-secondary{
+    background-color: #808080;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 7px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 14px 25px;
+    border: 1px solid #808080;
+    letter-spacing: 1.5px;
+}
+
+.btn-free {
+    font-weight: 400;
+    padding: 10px 20px;
+    letter-spacing: 1.5px;
+}
+
+.fea h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #192b59;
+}
+.fea h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #7581a1;
+}
+.fea a {
+    font-size: 14px;
+    text-align: center;
+    color: #1085e4;
+}
+.Robot h6{
+    font-size: 14px;
+    text-align: left;
+    color: #00bffe;
+    text-transform: uppercase; 
+}
+.Robot h1{
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+}
+.Robot p{
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+}
+.bth-third {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 26px;
+    border: 1px solid #1085e4;
+    letter-spacing: 1.5px;
+}
+.Features h1 {
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+.Features h3 {
+    font-size: 16px;
+    text-align: left;
+    color: #5a6789;
+}
+.Features small {
+    font-size: 14px;
+    text-align: left;
+    color: #7581a1;
+}
+.FunFucts h2{
+    font-size: 50px;
+    text-align: center;
+    color: #192b59;
+}
+.Fun li{
+    font-size: 12px;
+    text-align: center;
+    color: #1085e4;
+}
+.Fun span{
+    font-size: 60px;
+    text-align: center;
+    color: #bacbdc;
+}
+.Video h2{
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+.Video p{
+    font-size: 16px;
+    text-align: left;
+    color: #7581a1;
+}
+.Loremipsum h1{
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+.Loremipsum p{
+    font-size: 16px;
+    text-align: left;
+    color: #7581a1;
+}
+.btn-four {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 6px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 14px 28px;
+    border: 1px solid #1085e4;
+    letter-spacing: 1.5px;
+}
+.Loremipsum2 h1{
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+.Loremipsum2 p{
+    font-size: 16px;
+    text-align: left;
+    color: #7581a1;
+}
+.btn-five {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 6px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 14px 42px;
+    border: 1px solid #1085e4;
+    letter-spacing: 1.5px;
+}
+.screen_preview h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #1085e4;
+}
+.screen_preview h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #192b59;
+}
+.testimonials h4 {
+    font-size: 18px;
+    text-align: left;
+    color: #1085e4;
+}
+.testimonials h2 {
+    font-size: 40px;
+    text-align: left;
+    color: #192b59;
+}
+.client {
+    font-size: 22px;
+    text-align: left;
+    color: #000958;
+}
+.ceo {
+    font-size: 14px;
+    text-align: left;
+    color: #1085e4;
+}
+.our_plans h4{
+    font-size: 18px;
+    text-align: center;
+    color: #1085e4;
+}
+.our_plans h2{
+    font-size: 40px;
+    text-align: center;
+    color: #192b59;
+}
+.Free h1{
+    font-size: 70px;
+    text-align: left;
+    color: #000958;
+}
+.started {
+    font-size: 14px;
+    text-align: left;
+    color: #0084ff;
+}
+.btn-six {
+    background-color: rgba(28,28,28,0);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 13px 36px;
+    border: 1px solid #6e808f;
+    letter-spacing: 1.5px;
+}
+.btn-seven {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 13px 36px;
+    border: 1px solid #1085e4;
+    letter-spacing: 1.5px;
+}
+.btn-six:hover {
+    color: #ff0;
+    background: #000;
+    border: 1px solid #ff0;
+    }
