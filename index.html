@@ -22,38 +22,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <div class="menu">
-            <div>Logo</div>
+    <!-- 1 header  -->
+    <div class="page-header">
+        <div class="wrap">
+            <div class="box-header">
+            <a href="#" class="logo"></a>
             <ul class="nav">
-                <li><a href="#" class="aLogo">Home</a></li>
-                <li><a href="#" class="aLogo">Features</a></li>
-                <li><a href="#" class="aLogo">Video</a></li>
-                <li><a href="#" class="aLogo">Screens</a></li>
-                <li><a href="#" class="aLogo">Pricing</a></li>
-                <li><a href="#" class="aLogo"> team</a></li>
+                <li><a href="" class="nav-item">Home</a></li>
+                <li><a href="" class="nav-item">Features</a></li>
+                <li><a href="" class="nav-item">Video</a></li>
+                <li><a href="" class="nav-item">Screens</a></li>
+                <li><a href="" class="nav-item">Pricing</a></li>
+                <li><a href="" class="nav-item">Team</a></li>
                 <li><a href="" class="btn-primary btn-free">Free trail</a></li>
             </ul>
-            </div>
-            <div>
-            <h1>Best Software Landingpage </h1>
-            <div>
+        </div>
+
+            <h1>Best Software Landingpage</h1>
+            <div class="btn-group">
                 <button class="btn-primary">get started now</button>
                 <button class="btn-secondary">learn more</button>
             </div>
+
+        </div>
+        <div class="screen-img"></div>
+
+    </div> 
+
+    <!-- 2 sponsors -->
+    <div class="page-sponsors">
+        <div> 
+            <ul class="list-sponsors wrap">
+                <li class="list-sponsors-item sponsor-one"></li>
+                <li class="list-sponsors-item sponsor-two"></li>
+                <li class="list-sponsors-item sponsor-three"></li>
+                <li class="list-sponsors-item sponsor-four"></li>
+            </ul>
         </div>
     </div>
 
-    <div class="sponsors" style="background-color: black" >
-        <div> <hr>
-                <img style="margin:0 0 0 50px;" src="img/bg_1.png" alt="token"> 
-                <img style="margin:0 0 0 50px;" src="img/bg_2.png" alt="magneto">
-                <img style="margin:0 0 0 50px;" src="img/bg_3.png" alt="boohoo">
-                <img style="margin:0 0 0 50px;" src="img/bg_4.png" alt="fractal">
-            <hr>
-        </div>
-    </div>
-
+    <!-- 3 features -->
     <div class="features" style="background-color: rgb(44, 97, 115);">
         <div class="fea"> 
         <h2>Best Features Ever Seen</h2>
@@ -95,7 +103,8 @@
     </div>
 </div>
 
-    <div class = "Robot" style="background-color: rgb(57, 133, 136);">
+<!--subscribe-->
+    <div class = "Robot" >
         <div>
             <hr>
             <h6>Subscribe</h6>
@@ -123,9 +132,9 @@
         <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</small>
     </div>
 
-    <div class="FunFucts" style="background-color: rgb(14, 16, 25);">
+    <div class="FunFucts">
         <div class="wrap">
-            <h2>Some Fun Facts <br> About Dashboard</h2>
+            <h2 class="title-h2"> <span>Some Fun Facts</span> About Dashboard </h2>
             <ul class="Fun">
                 <li><span>53K</span>Layouts</li>
                 <li><span>10K</span>Projects</li>
@@ -181,8 +190,7 @@
     <div class="screen_preview">
         <div>
             <hr>
-            <h4> SCREEN REVIEW </h4>
-            <h2> Screenshot With Details</h2>
+            <h2 class="title-h2-40"> <span> SCREEN REVIEW </span> Screenshot With Details</h2>
             <img src="img/Слой 4.png" alt="График">
         </div>
     </div>
@@ -220,44 +228,49 @@
         </div>
     </div>
 </div>
-
-    <div class="our_plans">
+<!--plan-->
+    <div class="page-plans">
         <div>
             <hr>
-            <h4> OUR PLANS </h4>
-            <h2> Pricing Plans </h2>
-            <div class="Prise">
-            <div class="Free">
+            <h2 class="title-h2-40"> <span> our plans </span> Pricing Plans </h2> 
+            <div class="box-prise">
+            <div class="box-price-item">
             <h1> Free </h1>
             <h5 class="started"> STARTED </h5>
-            <P>Unlimited users Active<br>
-                1 GB Bandwidth Speed<br>
-                256 MB Memory Card<br>
-                Free Domain Name<br>
-                Free Hosting Name<br>
-                24x7 Online Support</P>
+            <ul>
+                <li>Unlimited users Active</li>
+                <li>1 GB Bandwidth Speed</li>
+                <li>256 MB Memory Card</li>
+                <li>Free Domain Name</li>
+                <li>Free Hosting Name</li>
+                <li>24x7 Online Support</li>
+            </ul>
                 <button class="btn-six"> CHOOSE PLAN </button>
             </div>
-            <div>
+            <div class="box-price-item-active">
                 <h1> $90/mo </h1>
                 <h5 class="started"> STARTED </h5>
-                <P>Unlimited users Active<br>
-                    1 GB Bandwidth Speed<br>
-                    256 MB Memory Card<br>
-                    Free Domain Name<br>
-                    Free Hosting Name<br>
-                    24x7 Online Support</P>
+                <ul>
+                    <li>Unlimited users Active</li>
+                    <li>1 GB Bandwidth Speed</li>
+                    <li>256 MB Memory Card</li>
+                    <li>Free Domain Name</li>
+                    <li>Free Hosting Name</li>
+                    <li>24x7 Online Support</li>
+                </ul>
                     <button class="btn-seven"> CHOOSE PLAN </button>
                 </div>
-                <div>
+                <div  class="box-price-item">
                     <h1> $350/mo </h1>
                     <h5 class="started"> STARTED </h5>
-                    <P>Unlimited users Active<br>
-                        1 GB Bandwidth Speed<br>
-                        256 MB Memory Card<br>
-                        Free Domain Name<br>
-                        Free Hosting Name<br>
-                        24x7 Online Support</P>
+                    <ul>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                        <li>Free Domain Name</li>
+                        <li>Free Hosting Name</li>
+                        <li>24x7 Online Support</li>
+                    </ul>
                         <button class="btn-six"> CHOOSE PLAN </button>
                     </div>
                 </div>
